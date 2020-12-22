@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 with open('中美服务业增加值.txt','r',encoding='utf-8') as f:
     f1=f.readlines()
-with open('中美工业增加值占比','r',encoding='utf-8') as f:
+with open('中美服务业增加值占GDP比重','r',encoding='utf-8') as f:
     f2=f.readlines()
 
 def abstract_gdp(L):
